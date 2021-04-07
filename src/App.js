@@ -1,16 +1,14 @@
-import React, { useEffect } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import Header from './components/Header';
-import Main from './components/Main';
-import Footer from './components/Footer';
+import Content from './components/Content';
 import './styles.css';
 
 const App = () => {
   return (
     <div className="App">
       <Header />
-      <Main />
+      <Content />
     </div>
   );
 };

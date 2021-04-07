@@ -6,7 +6,7 @@ import { STATES } from './constants/states';
 import { GENRES } from './constants/genres';
 import Pagination from '../Pagination';
 
-const Main = () => {
+const Content = () => {
   const [restaurants, setRestaurants] = useState([]);
   const [displayRestaurants, setDisplayRestaurants] = useState([]);
   const [activeState, setActiveState] = useState('');
@@ -110,4 +110,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Content;
