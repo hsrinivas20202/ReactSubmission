@@ -123,3 +123,8 @@ nav {
   display: block;
   text-align: center;
 }
+
+.table-wrapper{
+  height: calc(100vh - 328px);
+    overflow-y: scroll;
+}

@@ -18,15 +18,14 @@ const Table = ({ props }) => {
   if (!restaurants.length > 0) {
     return (
       <>
-        <h2>Restaurant Results:</h2>
-        <h2>No results found.</h2>
+        <h2>Restaurant  Not Found</h2>
       </>
     );
   } else {
     return (
       <>
-        <h2>Restaurant Results:</h2>
-        <table>
+        <h2>Restaurant Details</h2>
+        <div className="table-wrapper"><table>
           <tbody>
             <tr className="title-row">
               <td>Name</td>
@@ -48,6 +47,7 @@ const Table = ({ props }) => {
             })}
           </tbody>
         </table>
+        </div>
         <div style={{ alignItems: 'center', margin: 10 }}>
           <Pagination
             entriesPerPage={entriesPerPage}
