@@ -1,0 +1,125 @@
+
+.tool{
+  position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+}
+
+.toolbar{
+  margin-left: 40%}
+table {
+  margin: 0 auto;
+  max-width: 90%;
+  display: inline-flex;
+  font-size: clamp(1rem, 0.425rem + 1.6667vw, 1rem);
+}
+
+table td {
+  padding:'10px 25px';
+  border: 2px black solid;
+  background-color:#FFF;
+  color: #000;
+}
+
+.title-row td {
+  font-weight: bolder;
+  background-color: #fff;
+}
+
+.reset{
+  color: white;
+    background-color: #63b1c6;
+    border-color: #63b1c6;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    border: solid thin;
+    padding-left: 2px
+}
+.search {
+  padding-top: 10px;
+  width: 40%;
+    float: left;
+}
+.filterState{
+  float: left;
+    width: 35%;
+    text-align: start;
+    padding-top: 10px;
+}
+.search-bar {
+  padding: 1%;
+  width: 40vw;
+  max-width: 400px;
+}
+.search > div {
+  display: block;
+  justify-content: center;
+  width: 70%;
+}
+
+
+
+.search > div > form > input {
+  text-align: center;
+  font-size: 0.85rem;
+  line-height: 0.8em;
+  border-radius:10px;
+  margin-left: 10px;
+  width: 15rem;
+}
+
+select {
+  text-transform: capitalize;
+  margin: 1%;
+  width: 10%;
+  font-size: 0.85rem;
+}
+
+.pagination {
+  margin: 2%;
+  list-style-type: none;
+  max-width: 80%;
+  max-height: 10%;
+  text-align: center;
+  margin: 0px 24rem;
+}
+
+.pagination a {
+  color: black;
+  background-color:#fff;
+  padding: 10px 15px;
+  margin: 10px;
+  float: left;
+  border-radius: 5px;
+}
+
+.pagination a:hover {
+  background: #494e5c;
+  color: white;
+}
+
+.footer {
+  width: 100%;
+  background-color: #fff;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.App {
+  background-color: #FFF;
+  color: #2196f3;
+}
+
+nav {
+  display: block;
+  text-align: center;
+}
